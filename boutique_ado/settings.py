@@ -33,6 +33,8 @@ DEBUG = True
 ALLOWED_HOSTS = [
     '127.0.0.1', # VS Code Preview
     'localhost', # listen for stripe webhooks
+    '.github.dev', # Codespaces forwarded URLs
+    '.app.github.dev', # Codespaces forwarded URLs (alternate pattern)
 ]
 
 
